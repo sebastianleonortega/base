@@ -5,6 +5,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {RouterModule} from "@angular/router";
 import {HeaderComponent} from "./layouts/header/header.component";
 import {MatDialogModule} from "@angular/material/dialog";
+import {MatIconModule} from "@angular/material/icon";
 
 
 
@@ -18,7 +19,8 @@ import {MatDialogModule} from "@angular/material/dialog";
     ReactiveFormsModule,
     HttpClientModule,
     RouterModule,
-    MatDialogModule
+    MatDialogModule,
+    MatIconModule
   ],
   exports: [
     CommonModule,
@@ -27,7 +29,8 @@ import {MatDialogModule} from "@angular/material/dialog";
     HttpClientModule,
     RouterModule,
     HeaderComponent,
-    MatDialogModule
+    MatDialogModule,
+    MatIconModule
   ]
 })
 export class SharedModule { }

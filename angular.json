@@ -34,8 +34,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/ngx-toastr/toastr.css",
+              "src/assets/fonts/icomoon/style.css"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/styles/scss"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -102,7 +109,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/ngx-toastr/toastr.css",
+              "src/assets/fonts/icomoon/style.css"
             ],
             "scripts": []
           }

@@ -11,7 +11,6 @@ $theme-palette: (
                 'secondary': #FFFFFF,
         ),
         material:(
-                50: #DDFBFFl,
                 100: #BBF6FF,
                 200: #9AF2FF,
                 300: #78EEFF,
@@ -54,3 +53,5 @@ $theme-palette: (
 @function get-pallete($palette) {
   @return map.get($theme-palette, $palette)
 }
+
+
