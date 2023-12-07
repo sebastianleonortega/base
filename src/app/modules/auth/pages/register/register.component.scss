@@ -5,11 +5,10 @@
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #edeff2;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
 }
 
 .register-form {
@@ -18,9 +17,9 @@
   align-items: center;
   flex-direction: column;
   width: 50%;
-  height: 400px;
+  height: 80%;
   border-radius: 8px;
-  margin: 50px;
+  margin: 50px 50px 50px 10px;
   flex: 1;
   background-color: white;
 
@@ -59,7 +58,7 @@
 
     .get-into {
       width: 100%;
-      background-color: #0077FF;
+      background-color: #133136;
       color: #fff;
       border: none;
       padding: 10px;
@@ -69,21 +68,29 @@
       margin-top: 10px;
 
       &:hover{
-        background-color: blue;
+        background-color: #110f36;
       }
     }
     .color-orange{
-      background-color: lightskyblue;
+      background-color: #686d6e;
     }
   }
 }
 
 .register-image {
+  height: 80%;
   flex: 1;
   text-align: center;
-  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 50px 10px 50px 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   img {
+    width: 90%;
     border-radius: 8px;
     max-width: 100%;
   }
