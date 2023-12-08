@@ -38,14 +38,6 @@ export class LoginComponent implements OnInit {
         email: this.login.get('email')?.value,
         password: this.login.get('password')?.value,
       }
-      if (data.email === "doctor@gmail.com"){
-        this._router.navigate(['medical']);
-        this._alert.success("Bienvenido");
-
-      }else{
-        this._router.navigate(['home']);
-        this._alert.success("Bienvenido");
-      }
     }
 
   }
